@@ -56,7 +56,7 @@ var game = {
     }
   },
   
-  // The start function starts the timer at 45 then counts down
+  // The start function starts the timer at 45 then counts down using the countDown function
   start: function() {
 
     timer = setInterval(game.countDown, 1000);
